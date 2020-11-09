@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Listados y Tablas</title>
+    <meta name="author" content ="Esther Moreno" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+    <header>
+        <h1>Ejemplos de uso de listados y tablas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pag/listasanidadas.html">Listas Anidadas</a></li>
+            <li><a href="pag/tbasica.html">Tablas Básicas</a></li>
+            <li><a href="pag/horario.html">Horario</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Listados</h2>
+            <article>
+                <!-- Listas no ordenadas -->
+                <ul> 
+                    <li>IT, Stephen King</li>
+                    <li>Carrie, Stephen King</li>
+                    <li>El Resplandor, Stephen King</li>
+                    <li>Misery, Stephen King</li>
+                </ul>
+            </article>
+            <article>
+                <!-- Listas ordenadas -->
+                <ol type="A">  <!-- type="a|A|1|i|ii" -->
+                    <li>IT, Stephen King</li>
+                    <li>Carrie, Stephen King</li>
+                    <li>El Resplandor, Stephen King</li>
+                    <li>Misery, Stephen King</li>
+                </ol>
+                <ol type="a" reversed>
+                    <li class="obra">IT, Stephen King</li>
+                    <li class="obra">Carrie, Stephen King</li>
+                    <li class="obra">El Resplandor, Stephen King</li>
+                    <li class="obra">Misery, Stephen King</li>
+                </ol>    
+                <ol type="1" start="3">
+                    <li>IT, Stephen King</li>
+                    <li>Carrie, Stephen King</li>
+                    <li>El Resplandor, Stephen King </li>
+                    <li>Misery, Stephen King</li>
+                </ol>
+            </article>
+            <article> 
+                <!-- Listas de términos y descripciones -->       
+                <dl>
+                    <dt>IT</dt>
+                    <dd>Tras lustros de tranquilidad y lejania una antigua promesa
+                    infantil les hace volver al lugar en el que vivieron su infancia y
+                    juventud como una terrible pesadilla.</dd>
+                    <dt>Carrie</dt>
+                    <dd>Sus compañeros se burlan de ella, pero Carrie tiene un don.
+                    Puede mover cosas con su mente. Este es su poder y su gran
+                    problema.</dd>
+                    <dt>El Resplandor</dt>
+                    <dd>Al escritor Jack Torrance le es ofrecido un empleo como cuidador
+                    del hotel Overlook durante el invierno junto a su familia.</dd>
+                    <dt>Misery</dt>
+                    <dd>Paul Sheldon es un famoso escritor de novelas románticas
+                    ambientadas en la época victoriana, cuyo personaje principal se llama
+                    Misery Chastain.</dd>
+                </dl>    
+            </article>
+            <article>
+                <!--Listas de valores con blockquote-->
+                <h3>Listas con blockquote</h3>
+                <blockquote>IT</blockquote>
+                <blockquote>Carrie</blockquote>
+                <blockquote>El Resplandor</blockquote>
+                <blockquote>Misery</blockquote>
+            </article>
+            <article>
+                <!--Lista de valores para detalles-->
+                <h3>Lista de detalles</h3>
+                <details>
+                    <summary>Mis libros</summary>
+                    <p>IT</p>
+                    <p>Carrie</p>
+                    <p>El Resplandor</p>
+                    <p>Misery</p>
+                </details>               
+            </article>
+            <article>
+                <h3>Atributos globales: translate y contenteditable</h3>
+                <p>Mi película favorita es <span translate="no">Inside Out</span></p>
+                <p>Mi película favorita es <span contenteditable>Inside Out</span></p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <br />
+        <small>&copy; Propiedad de Esther</small>
+        <a href="https://www.educa2.madrid.org/web/centro.ies.luisbraille.coslada">
+            <address>IES Luis Braille </address>
+        </a>
+        <a href="mailto:esther.moreno@luisbraille.es">Contacto</a>  
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+header{
+    color: red;
+    text-align: center;
+}
+footer {
+    text-align: right;
+}
+/* Distintos elementos para marcar listados */
+article ul {
+    list-style-type: circle;
+   /* list-style-image: url('../img/favicon.ico'); */
+}
+article ul li {
+    padding: 1%;
+}
+
+/* fondos para las listas ordenadas */
+ol {
+    background-color: lightgray;
+    background-size: auto;
+}
+ol li {
+    color: white;
+    padding: 1%;
+    box-shadow:darkgrey 5px 5px 5px;
+}
+
+.obra {
+    background-color: beige;
+    color:blueviolet;
+    margin: 1%;
+}
+/* borde puenteado negro para las lisas de términos */
+dt {
+    border: 1px black;
+    border-style: dashed;
+}
+
+
+/* Quitamos punto del listado del menú  y dejamos espacio entre opciones*/
+nav li{
+    list-style: none;
+    padding: 1%;
+}
+
+/* Modo de mostrado flexible con dirección en línea */
+nav ul {
+    display: flex;
+    flex-direction: row; /* row-reverse, col, col-reverse*/
+}
+
+/* Pseudo Selectores. Al pasar por encima cambia el color */
+nav a:hover{
+	background-color:#F60;
+	color:#CF3;
+}
+
+/* En listas anidadas utilizamos otro icono */
+h3 + ul > li {
+	list-style-image:url("../img/icono.jpg");
+} 
+
+
+
+/* Bordes,margen y relleno de las TABLAS */
+/* Colapsado:*/
+table {
+   border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 2%;
+}
+/* Sin colapsar */
+/*
+table, td, th {
+    border: 1px solid black;
+    padding: 2%;
+    margin: auto;
+}
+*/
+/* Alinear al centro el pie de la tabla */
+tfoot {
+    text-align: center;
+}
+
